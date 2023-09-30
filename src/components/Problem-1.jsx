@@ -17,7 +17,6 @@ const Problem1 = () => {
         }
     ])
 
-    const [allTask, setAllTask] = useState(tasks);
     const [show, setShow] = useState('all');
 
     const handleClick = (val) => {
